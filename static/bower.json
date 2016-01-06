@@ -1,0 +1,35 @@
+{
+  "name": "static",
+  "authors": [
+    "NICK <nick121212@126.com>"
+  ],
+  "description": "静态文件",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "angular-material"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.8",
+    "angular-material": "~1.0.1",
+    "requirejs": "~2.1.22",
+    "angular-material-data-table": "~0.9.5",
+    "angular-schema-form": "~0.8.12",
+    "lodash": "~3.10.1",
+    "angular-ui-router": "~0.2.15",
+    "angular-permission": "~1.1.1",
+    "angular-material-icons": "https://github.com/klarsys/angular-material-icons.git#~0.6.0",
+    "svg-morpheus": "~0.1.8",
+    "moment": "~2.11.0"
+  }
+}
