@@ -1,0 +1,10 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			
+			"request": "launch",
+			"program": "SET_SCRIPT_FILE_PATH_HERE.ps1"
+		}
+	]
+}

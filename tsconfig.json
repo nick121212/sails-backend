@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": false,
+        "module": "amd",
+        "removeComments": false,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "bower_components",
+        "static/bower_components",
+        "servers",
+        "typings"
+    ],
+    "compileOnSave": true,
+    "buildOnSave": true
+}
