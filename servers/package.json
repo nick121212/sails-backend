@@ -35,7 +35,8 @@
     "sails-mysql": "^0.11.2"
   },
   "devDependencies": {
-    "babel": "^5.8.23"
+    "babel": "^5.8.23",
+    "serve-static": "^1.10.0"
   },
   "scripts": {
     "start": "node app.js",

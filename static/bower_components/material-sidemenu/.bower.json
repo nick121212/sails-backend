@@ -1,0 +1,35 @@
+{
+  "name": "material-sidemenu",
+  "authors": [
+    "NICK <nick121212@126.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/nick121212/material-sidemenu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.8",
+    "angular-material": "~1.0.1",
+    "gulp": "~3.9.0",
+    "angular-material-icons": "~0.6.0"
+  },
+  "_release": "b2ca8b1f58",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b2ca8b1f5825d8ee70badfdeb13a2c63a5651312"
+  },
+  "_source": "git://github.com/nick121212/material-sidemenu.git",
+  "_target": "*",
+  "_originalSource": "material-sidemenu",
+  "_direct": true
+}

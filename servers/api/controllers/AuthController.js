@@ -32,7 +32,7 @@ module.exports = {
                     return;
                 }
 
-                res.redirect('/');
+                res.redirect('/home');
                 return;
             });
         })(req, res);
@@ -49,7 +49,7 @@ module.exports = {
                     return;
                 }
 
-                res.redirect('/');
+                res.redirect('/home');
                 return;
             });
         })(req, res);
@@ -66,7 +66,7 @@ module.exports = {
                     return;
                 }
 
-                res.redirect('/');
+                res.redirect('/home');
                 return;
             });
         })(req, res);
@@ -83,7 +83,7 @@ module.exports = {
                     return;
                 }
 
-                res.redirect('/');
+                res.redirect('/home');
                 return;
             });
         })(req, res);
@@ -103,7 +103,7 @@ module.exports = {
                     return;
                 }
 
-                res.redirect('/');
+                res.redirect('/home');
                 return;
             });
         })(req, res);
@@ -120,7 +120,7 @@ module.exports = {
                     return;
                 }
 
-                res.redirect('/');
+                res.redirect('/home');
                 return;
             });
         })(req, res);

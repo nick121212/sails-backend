@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-material-icons/angular-material-icons.js"></script>
+    <script src="sidemenu.js"></script>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="bower_components/angular-material-icons/angular-material-icons.css">
+    <link rel="stylesheet" href="sidemenu.css">
+</head>
+<body ng-controller="test">
+
+<side-menu-search></side-menu-search>
+<side-menu flex
+           class="sidemenu"
+           selected-nodes="selectedNodes"
+           modules="modules">
+    <md-button class="md-primary layout-fill"
+               md-style-color="{'background-color': isSelected(node) ? 'warn.300': 'primary.0'}"
+               style="text-align: left;"
+               aria-label="{{node.menuTitle}}"
+               ng-href="{{ node.menuLink }}">
+        <md-content flex layout="row" style="background-color: transparent;">
+            <ng-md-icon icon="{{ node.menuIcon||'apps'}}"></ng-md-icon>
+            <span layout-padding flex ng-bind="node.menuTitle"></span>
+            <ng-md-icon ng-if="!isLeaf(node)"
+                        icon="{{ isShowChildren(node)?'expand_more':'chevron_right' }}"></ng-md-icon>
+        </md-content>
+    </md-button>
+</side-menu>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.sidemenu ul,
+.sidemenu li {
+  padding: 0;
+  margin: 0;
+}
+.sidemenu a {
+  padding: 0;
+  margin: 0;
+}
+.sidemenu a > md-content {
+  padding-left: 5px;
+}
+.sidemenu .sidemenu-child {
+  position: relative;
+  display: block;
+}
+.sidemenu .sidemenu-child a {
+  border-radius: 0;
+}
+.sidemenu .sidemenu-child a:hover > md-content:before {
+  display: block;
+}
+.sidemenu .sidemenu-child a > md-content {
+  padding-left: 25px;
+}
+.sidemenu .sidemenu-child a > md-content:before {
+  display: none;
+  background-color: transparent;
+  padding-left: 20px;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 0;
+  bottom: 0px;
+  border-left: 3px solid #e2e2e2;
+}
+.sidemenu .sidemenu-child .sidemenu-child a > md-content {
+  padding-left: 50px;
+}
